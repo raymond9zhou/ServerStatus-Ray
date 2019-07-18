@@ -1,4 +1,4 @@
-﻿# ServerStatus-Hotaru
+﻿# ServerStatus-Ray
 云探针、多服务器探针、云监控、多服务器云监控
 基于ServerStatus-Toyo和CokeMine的魔改版本进行修改，用过去15分钟内的Load Average作为负载值（原来使用端口的连接数）
 
