@@ -1,0 +1,67 @@
+@media only screen and (min-width: 992px) {
+	.background {
+		background: url(../img/megumi_1440x450.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
+@media only screen and (max-width: 992px) {
+	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
+	.background {
+		background: url(../img/megumi_1440x450.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
+@media only screen and (max-width: 720px) {
+	#type, tr td:nth-child(3)			{ display:none; visibility:hidden; }
+	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
+	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
+	p{
+		    margin: 0 0 17px 0!important;
+		}
+		h1, .h1 {
+    margin-top: 45px!important;
+    margin-bottom: 45px!important;
+    font-size: 33px;
+    line-height: 46px;
+}
+	.background {
+		background: url(../img/megumi.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
+@media only screen and (max-width: 600px) {
+	#type, tr td:nth-child(3)			{ display:none; visibility:hidden; }
+	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
+	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
+	#load, tr td:nth-child(6)			{ display:none; visibility:hidden; }
+	.background {
+		background: url(../img/megumi.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
+@media only screen and (max-width: 533px) {
+	#type, tr td:nth-child(3)			{ display:none; visibility:hidden; }
+	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
+	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
+	#traffic, tr td:nth-child(8)		{ display:none; visibility:hidden; }
+	#load, tr td:nth-child(6)			{ display:none; visibility:hidden; }
+	.background {
+		background: url(../img/megumi.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
+@media only screen and (max-width: 450px) {
+	body								{ font-size: 10px; }
+	.content 							{ padding: 0; }
+	#name, tr td:nth-child(2)			{ min-width: 20px; max-width: 60px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+	#type, tr td:nth-child(3)			{ display:none; visibility:hidden; }
+	#location, tr td:nth-child(4)		{ display:none; visibility:hidden; }
+	#uptime, tr td:nth-child(5)			{ display:none; visibility:hidden; }
+	#traffic, tr td:nth-child(8)		{ display:none; visibility:hidden; }
+	#hdd, tr td:nth-child(11)		{ display:none; visibility:hidden; }
+	#cpu, #ram { min-width: 20px; max-width: 40px; }
+	.background {
+		background: url(../img/megumi.jpg) no-repeat;
+		background-size: 100%; 
+	}
+}
