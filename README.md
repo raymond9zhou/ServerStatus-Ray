@@ -8,7 +8,7 @@
 
 ## 安装方法
 ```
-wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Ray/master/status.sh
 chmod +x status.sh
 ./status.sh
 ```
