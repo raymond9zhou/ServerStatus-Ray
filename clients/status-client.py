@@ -46,7 +46,12 @@ def get_memory():
 
 def get_hdd():
 	p = subprocess.check_output(['df', '-Tlm', '--total', '-t', 'ext4', '-t', 'ext3', '-t', 'ext2', '-t', 'reiserfs', '-t', 'jfs', '-t', 'ntfs', '-t', 'fat32', '-t', 'btrfs', '-t', 'fuseblk', '-t', 'zfs', '-t', 'simfs', '-t', 'xfs']).decode("Utf-8")
-	total = p.splitlines()[-1]
+        #total = p.splitlines()[-1]
+        total = p.splitlines()
+        for i in total:
+            if 'home' in i:
+              total = i
+
 	used = total.split()[3]
 	size = total.split()[2]
 	return int(size), int(used)
