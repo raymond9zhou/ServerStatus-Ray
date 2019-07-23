@@ -5,7 +5,7 @@ export PATH
 #=================================================
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: ServerStatus client + server
-#	Version: Test v0.004
+#	Version: V0.1.0
 #	Author: Toyo,Modify by Raymond Zhou
 #=================================================
 
